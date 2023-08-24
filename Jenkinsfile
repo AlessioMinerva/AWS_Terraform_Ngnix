@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('Comment') {
+    stage('ListFiles') {
       steps {
         sh 'ls -la'
       }
